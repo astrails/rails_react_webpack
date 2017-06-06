@@ -27,6 +27,7 @@ const DEVELOPMENT_CONFIG = {
     inline: true,
     host: '0.0.0.0',
     historyApiFallback: true,
+    headers: { 'Access-Control-Allow-Origin': '*' },
     stats: {
       assets: true,
       timings: true,
