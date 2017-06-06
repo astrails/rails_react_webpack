@@ -101,7 +101,8 @@ const COMMON_CONFIG = {
     new webpack.LoaderOptionsPlugin({
       options: {
         eslint: {
-          emitWarning: true
+          emitWarning: true,
+          configFile: path.resolve(APP_PATH, '../.eslintrc.json')
         }
       }
     }),
@@ -114,4 +115,3 @@ const COMMON_CONFIG = {
 };
 
 module.exports = webpackMerge.smart(COMMON_CONFIG, config);
-
