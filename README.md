@@ -24,6 +24,4 @@ demo: https://google-fetch-test.herokuapp.com
 
 additional links:
 
-client application starter: https://github.com/mihap/webpack-react-hot-bolerplate
-
-buildpack for heroku: https://github.com/EzovLabs/heroku-buildpack-nodejs
+client application starter: https://github.com/astrails/rails_react_webpack
