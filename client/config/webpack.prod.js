@@ -77,11 +77,6 @@ const PRODUCTION_CONFIG = {
       fileName: 'webpack-asset-manifest.json'
     }),
 
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      minChunks: Infinity
-    }),
-
     new ChunkManifestPlugin({
       filename: 'webpack-chunk-manifest.json',
       manifestVariable: 'webpackManifest'

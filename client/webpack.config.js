@@ -86,7 +86,7 @@ const COMMON_CONFIG = {
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
-      minChunks: 2
+      minChunks: Infinity
     }),
 
     new webpack.DefinePlugin({
