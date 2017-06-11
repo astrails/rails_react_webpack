@@ -2,7 +2,7 @@ import React from 'react';
 
 const asyncComponent = (getComponent) =>
   class AsyncComponent extends React.Component {
-    state = { Component: AsyncComponent.Component };
+    state = { Component: null };
 
     componentWillMount() {
       if (!this.state.Component) {
